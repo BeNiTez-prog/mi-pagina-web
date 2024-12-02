@@ -1,0 +1,93 @@
+/* Estilo base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #dd0000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido del main */
+}
+
+section {
+    width: 80%; /* Ajusta el ancho de la sección para añadir márgenes laterales */
+    max-width: 800px; /* Ancho máximo de la sección */
+    margin: 20px 0; /* Añade margen superior e inferior */
+    text-align: center; /* Centra el texto dentro de la sección */
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0; /* Añade margen superior e inferior a los párrafos */
+}
+
+ul {
+    text-align: left; /* Alinea el texto de la lista a la izquierda */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 5px solid #dd0000;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    section {
+        width: 100%; /* Ajusta el ancho al 100% en pantallas pequeñas */
+        padding: 0 10px; /* Añade relleno lateral */
+    }
+}

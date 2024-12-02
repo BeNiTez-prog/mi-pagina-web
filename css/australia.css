@@ -1,0 +1,72 @@
+/* Estilo base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #dd0000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+.circuit-image {
+    width: 80%;       /* Ajusta el tamaño según sea necesario */
+    max-width: 700px; /* Ancho máximo para limitar el tamaño */
+    height: auto;     /* Mantiene la proporción de la imagen */
+    display: block;   /* Hace que la imagen sea un bloque */
+    margin: 0 auto;   /* Centra la imagen horizontalmente */
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 5px solid #dd0000;
+}
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    figure img {
+        width: 100%;
+    }
+}

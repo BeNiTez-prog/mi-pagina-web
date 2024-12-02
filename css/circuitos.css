@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    color: #333;
+    height: 100%;
+    width:100%
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #dd0000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+main {
+     flex: 1; 
+     display: flex;
+     flex-direction: column;
+      justify-content: center; 
+      align-items: center;
+       padding: 20px;
+       height: 100%;
+       width: 100%;
+     } 
+
+       /* Button container styles */
+        .button-container { 
+        display: grid; 
+        grid-template-columns: repeat(5, 1fr); 
+        grid-gap: 20px; 
+        justify-content: center; 
+        align-items: center; 
+        max-width: 1000px; 
+        width: 100%;
+        height: 100%;
+     } 
+     /* Button styles */ 
+     .button {
+        background-size: contain;  /* Asegura que toda la imagen se ajuste dentro del botón */
+        background-position: center; /* Centra la imagen en el botón */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-clip: border-box; /* Asegura que la imagen se ajuste dentro del borde del botón */
+        background-color: #ffffff;
+        color: #fff;
+        padding: 20px 0; /* Ajusta el padding para reducir el tamaño del botón */
+        border: none;
+        border-radius: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        height: 80px; /* Reduce la altura del botón */
+        width: 150px; /* Reduce el ancho del botón */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+/* Button wrapper styles */
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Caption styles */
+.caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+    
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 5px solid #dd0000;
+    margin-top: auto; /* Empuja el footer al final del contenedor */
+}
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    figure img {
+        width: 100%;
+    }
+}
+
+    
