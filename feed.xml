@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+	<title>F1 info</title>
+	<link>https://benitez-prog.github.io/mi-pagina-web/</link>
+	<description>Una pagina dedicada a la información de la F1</description>
+	<item>
+		<title>F1 info new</title>
+		<link>file:///C:/Users/Alumno1/Desktop/Pagina%20web%20-%20copia%20(2)/index.html</link>
+		<description>Página para los mayores fanáticos de la F1</description>
+	</item>
+</channel>
+</rss>
